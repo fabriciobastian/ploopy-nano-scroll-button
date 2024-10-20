@@ -18,7 +18,7 @@ Because the button is connected to the GPIO pin, which is used to put the nano i
 2. Kaihl choc V1 low profile switch + keycap
 3. 2 small wires (e.g. 22awg)
 4. 3mm drill bit and a drill (or whatever you have at hand to drill a 3mm hole through the Ploopy Nano case)
-5. Soldering iron and solder wireu
+5. Soldering iron and solder wire
 6. Small phillips screwdriver to assemble disassemble the Nano case
 7. A 3D printer
 8. (Optional) PH-2A and PH-2Y connectors - so you don't need to solder the wires directly to the PCB
@@ -32,7 +32,7 @@ You can 3D print one of the files in the stl folder or design your own :).
 
 ## Assembling instructions
 
-1. Glue the button insert to the bottom-left corner of the bottom part of the nano case
+1. Glue the button insert to the bottom-left corner of the bottom part of the Nano case
 
 <img src="./images/hardware/1-glue-button.jpg" width="200"/>
 
@@ -52,13 +52,13 @@ You can 3D print one of the files in the stl folder or design your own :).
 
 <img src="./images/hardware/5-attach-female-connector-to-wires.jpg" width="200"/>
 
-Connect the PH-2Y to the PH-2A, place the PCB into the case and arrange the wires to it is not in the way of the optics.
+Connect the PH-2Y to the PH-2A, place the PCB into the case and arrange the wires so they are not in the way of the optics.
 
-6. Adjust the size of the wire and solder it to the switch. A hot-swap socket would be awesome, but I did not have one at hand. I am not sure that there is enough space in the button insert to add one (may be possible).
+6. Adjust the size of the wire and solder it to the switch. A hot-swap socket would be awesome, but I did not have one at hand. I am not sure that there is enough space in the button insert to add one, but there might but just enough.
 
 <img src="./images/hardware/6-solder-wire-to-switch.jpg" width="200"/>
 
-Push the button into the hole and you are ready to reassemble the nano!
+Push the button into the hole and you are ready to reassemble the Nano!
 
 ## Firmware
 
