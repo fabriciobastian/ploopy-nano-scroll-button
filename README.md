@@ -1,4 +1,4 @@
-o# ploopy-nano-scroll-button
+# ploopy-nano-scroll-button
 
 This is a small mod to the [Ploopy Nano trackball](https://ploopy.co/nano-trackball/) that adds a scroll/bootloader button to the Nano.
 
