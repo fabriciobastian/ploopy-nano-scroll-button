@@ -10,7 +10,7 @@ This mod uses the Ploopy Nano GPIO pin to add a button to the trackball.
 
 I have used the button to activate drag-scroll, but it can be configured to do something else, if you're willing to compile the firmware yourself.
 
-Because the button is connected to the GPIO pin, which is used to put the nano into bootloader mode during startup, then you can also use it to put the nano into bootloader by holding the button during startup (no need to disassemble the trackball everytime you want to flash new firmware 🎉)
+Because the button is connected to the GPIO pin, which is used to put the Nano into bootloader mode during startup, then you can also use it to put the Nano into bootloader by holding the button during startup (no need to disassemble the trackball everytime you want to flash new firmware 🎉)
 
 ## Bill of materials
 
@@ -25,7 +25,7 @@ Because the button is connected to the GPIO pin, which is used to put the nano i
 
 ## Button insert
 
-I have created a small button insert to be added to the bottom-left corner of the nano. The insert fits a Kaihl choc V1 low profile switch.
+I have created a small button insert to be added to the bottom-left corner of the Nano. The insert fits a Kaihl choc V1 low profile switch.
 I have created 3 different options, but ended up using [the most minimalist one](./stl/button-insert-slim.stl).
 
 You can 3D print one of the files in the stl folder or design your own :).
@@ -36,7 +36,7 @@ You can 3D print one of the files in the stl folder or design your own :).
 
 <img src="./images/hardware/1-glue-button.jpg" width="200"/>
 
-2. The button has a 3mm hole so you can use that as a guide to drill into the case with a 3mm drill bit and a drill. The hole should look as following:
+2. The button has a 3mm hole and you can use it as a guide to drill into the case with a 3mm drill bit and a drill. The hole should look as following:
 
 <img src="./images/hardware/2-drill-hole.jpg" width="200"/>
 
@@ -66,7 +66,7 @@ I have compiled 2 different versions of the firmware, and both are available und
 
 ### ploopyco_trackball_nano_rev1_001_E2-momentary-drag-scroll
 
-This is the one of that I am using. It has momentary dragscroll, meaning that dragscroll is active while you hold the button. I have also increased the dragscroll divisors to 80, so the scroll is more controllable.
+This is the one that I am using. It has momentary dragscroll, meaning that dragscroll is active while you hold the button. I have also increased the dragscroll divisors to 80, so the scroll is more slower and more controllable.
 
 ### ploopyco_trackball_nano_rev1_001_E2-drag-scroll
 
@@ -76,7 +76,7 @@ This one toggles dragscroll when you click the button. The dragscroll settings a
 
 [Here](https://docs.qmk.fm/newbs) you can find instructions on how to setup your environment to compile and flash a new version of QMK into you Nano.
 
-If you want to use one of the provided firmware from this repo, you only need to install the QMK toolbox.
+If you want to use one of the provided firmware from this repo, then you only need to install the QMK toolbox.
 
 To put the Nano in bootloader mode, you can just unplug the Nano, then plug it again while holding the newly added button.
 
