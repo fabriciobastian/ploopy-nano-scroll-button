@@ -15,7 +15,7 @@ Because the button is connected to the GPIO pin, which is used to put the nano i
 ## Bill of materials
 
 1. Ploopy Nano, which can be acquired [here](https://ploopy.co/shop/nano-trackball-kit/)
-2. Kaihl choc V1 low profile switch
+2. Kaihl choc V1 low profile switch + keycap
 3. 2 small wires (e.g. 22awg)
 4. 3mm drill bit and a drill (or whatever you have at hand to drill a 3mm hole through the Ploopy Nano case)
 5. Soldering iron and solder wireu
