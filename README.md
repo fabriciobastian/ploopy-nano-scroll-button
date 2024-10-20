@@ -32,33 +32,25 @@ You can 3D print one of the files in the stl folder or design your own :).
 
 ## Assembling instructions
 
-1. Glue the button insert to the bottom-left corner of the bottom part of the Nano case
+1. Glue the button insert to the bottom-left corner of the bottom part of the Nano case \
+   <img src="./images/hardware/1-glue-button.jpg" width="200"/>
 
-<img src="./images/hardware/1-glue-button.jpg" width="200"/>
+2. The button has a 3mm hole and you can use it as a guide to drill into the case with a 3mm drill bit and a drill. The hole should look as following: \
+   <img src="./images/hardware/2-drill-hole.jpg" width="200"/>
 
-2. The button has a 3mm hole and you can use it as a guide to drill into the case with a 3mm drill bit and a drill. The hole should look as following:
+3. Pass 2 wires through the hole \
+   <img src="./images/hardware/3-wiring.jpg" width="200"/>
 
-<img src="./images/hardware/2-drill-hole.jpg" width="200"/>
+4. Solder PH-2A connector to the PCB. If you don't have one, you can also solder the wires directly to the PCB. I would recommend using the connector, because it is much easier to remove the PCB, if you want to use it to something else later on. \
+   <img src="./images/hardware/4-solder-male-ph-connector.jpg" width="200"/>
 
-3. Pass 2 wires through the hole
+5. Attach PH-2Y connector to the wires. Skip if you have soldered the wires directly to the PCB \
+   <img src="./images/hardware/5-attach-female-connector-to-wires.jpg" width="200"/> \
+   Connect the PH-2Y to the PH-2A, place the PCB into the case and arrange the wires so they are not in the way of the optics.
 
-<img src="./images/hardware/3-wiring.jpg" width="200"/>
-
-4. Solder PH-2A connector to the PCB. If you don't have one, you can also solder the wires directly to the PCB. I would recommend using the connector, because it is much easier to remove the PCB, if you want to use it to something else later on.
-
-<img src="./images/hardware/4-solder-male-ph-connector.jpg" width="200"/>
-
-5. Attach PH-2Y connector to the wires. Skip if you have soldered the wires directly to the PCB
-
-<img src="./images/hardware/5-attach-female-connector-to-wires.jpg" width="200"/>
-
-Connect the PH-2Y to the PH-2A, place the PCB into the case and arrange the wires so they are not in the way of the optics.
-
-6. Adjust the size of the wire and solder it to the switch. A hot-swap socket would be awesome, but I did not have one at hand. I am not sure that there is enough space in the button insert to add one, but there might but just enough.
-
-<img src="./images/hardware/6-solder-wire-to-switch.jpg" width="200"/>
-
-Push the button into the hole and you are ready to reassemble the Nano!
+6. Adjust the size of the wire and solder it to the switch. A hot-swap socket would be awesome, but I did not have one at hand. I am not sure that there is enough space in the button insert to add one, but there might but just enough. \
+   <img src="./images/hardware/6-solder-wire-to-switch.jpg" width="200"/> \
+   Push the button into the hole and you are ready to reassemble the Nano!
 
 ## Firmware
 
